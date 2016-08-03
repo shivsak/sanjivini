@@ -31,10 +31,6 @@ body {
   color: black;
 }
 
-.black-gradient {
-
-}
-
 .main {
   position: absolute;
   left: 50%;
@@ -97,6 +93,22 @@ body {
   background: rgba(255,75,125,1);
   color: rgba(255,255,255,1);
 }
+
+.navlink-black {
+  margin: 5px;
+  padding: 10px 25px;
+  border: 1px solid rgba(0,0,0,0.2);
+  color: rgba(0,0,0,0.2);
+  text-decoration: none;
+}
+
+.navlink-black:hover {
+  text-decoration: none;
+  border: 1px solid rgba(255,75,125,1);
+  background: rgba(255,75,125,1);
+  color: rgba(255,255,255,1);
+}
+
 
 .rounded {
   border-radius: 25px;
@@ -223,7 +235,7 @@ body {
 .social > h4 {
   color: rgba(0,0,0,0.4);
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
   font-family: 'Calibri', 'Helvetica', sans-serif;
 }
@@ -250,4 +262,49 @@ body {
 .twitter {
   border: 1px solid rgba(25,150,225,1);
   background: rgba(25,150,225,1);
+}
+
+.month {
+  color: rgba(0,0,0,1);
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Calibri', 'Helvetica', sans-serif;
+}
+
+.date {
+  border-radius: 50%;
+  color: white;
+  padding: 15px;
+  width: 30px;
+  height: 30px;
+  line-height: 50px;
+  background: rgba(0,0,0,0.3);
+}
+
+.next {
+  background: rgba(255,75,125,1);
+}
+
+.event-info {
+  font-size: 18px;
+  color: rgba(0,0,0,0.8);
+}
+
+.event-text {
+  min-width: 170px;
+  margin-top: 0px;
+  padding: 0px 65px;
+  color: rgba(0,0,0,0.4);
+  font-size: 16px;
+}
+
+.event-time {
+  margin: 15px 0px 0px 50px;
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 5px 10px;
+  border-radius: 4px;
+  width: 100px;
+  font-size: 16px;
+  color: rgba(0,0,0,0.2);
 }
